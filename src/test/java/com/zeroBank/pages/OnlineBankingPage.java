@@ -6,6 +6,5 @@ import org.openqa.selenium.support.FindBy;
 import java.util.List;
 
 public class OnlineBankingPage extends BasePage{
-    @FindBy(className = "headers")
-    public List<WebElement> headers;
+
 }

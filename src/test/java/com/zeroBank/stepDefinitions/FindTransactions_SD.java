@@ -38,6 +38,7 @@ public class FindTransactions_SD {
     @When("clicks search")
     public void clicks_search() {
         accountActivityPage.findButton.click();
+        BrowserUtils.sleep(2);
     }
 
     @Then("results table should only show transactions dates between {string} to {string}")

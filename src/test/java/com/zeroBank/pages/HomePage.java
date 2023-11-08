@@ -9,6 +9,4 @@ import java.util.List;
 
 public class HomePage extends BasePage{
 
-    @FindBy(css ="#pages-nav li")
-    public List<WebElement> homaPageLinks;
 }
